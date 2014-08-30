@@ -1,0 +1,3 @@
+[submodule "ClideCpp"]
+	path = ClideCpp
+	url = https://github.com/mbedded-ninja/ClideCpp
