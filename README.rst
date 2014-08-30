@@ -12,7 +12,7 @@ A collection of code modules to help with your embedded design!
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.mbedded.ninja)
 - Created: 2014-08-30
 - Last Modified: 2014-08-30
-- Version: v1.0.0.0
+- Version: v2.0.0.0
 - Company: mbedded.ninja
 - Project: MToolkit
 - Language: C++
@@ -65,5 +65,6 @@ Changelog
 ========= ========== ===================================================================================================
 Version    Date       Comment
 ========= ========== ===================================================================================================
+v2.0.0.0  2014-08-30 Added MStringCpp module as a Git submodule, closes #1.
 v1.0.0.0  2014-08-30 Initial commit. ClideCpp module added as a Git submodule.
 ========= ========== ===================================================================================================
