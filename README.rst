@@ -2,17 +2,17 @@
 MToolkit
 ==============================================================
 
----------------------------------------------------------------
-A collection of code modules to help with your embedded design!
----------------------------------------------------------------
+----------------------------------------------------------------------------------------
+A collection of microcontroller-friendly code modules to help with your embedded design!
+----------------------------------------------------------------------------------------
 
 .. image:: https://api.travis-ci.org/mbedded-ninja/MToolkit.png?branch=master   
 	:target: https://travis-ci.org/mbedded-ninja/MToolkit
 
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.mbedded.ninja)
 - Created: 2014-08-30
-- Last Modified: 2014-08-30
-- Version: v2.0.0.0
+- Last Modified: 2014-09-01
+- Version: v2.1.0.0
 - Company: mbedded.ninja
 - Project: MToolkit
 - Language: C++
@@ -31,8 +31,13 @@ Description
 
 A collection of microcontroller-friendly code modules to help with your embedded design!
 
-Included Modules
+Core Modules
 ----------------
+
+- MStringCpp
+
+Communication Modules
+---------------------
 
 - ClideCpp
 
@@ -65,6 +70,7 @@ Changelog
 ========= ========== ===================================================================================================
 Version    Date       Comment
 ========= ========== ===================================================================================================
+v2.1.0.0  2014-09-01 Updated ClideCpp to latest version. Added info on MStringCpp to README, closes #1.
 v2.0.0.0  2014-08-30 Added MStringCpp module as a Git submodule, closes #1.
 v1.0.0.0  2014-08-30 Initial commit. ClideCpp module added as a Git submodule.
 ========= ========== ===================================================================================================
