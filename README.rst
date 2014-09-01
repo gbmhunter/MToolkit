@@ -12,7 +12,7 @@ A collection of microcontroller-friendly code modules to help with your embedded
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.mbedded.ninja)
 - Created: 2014-08-30
 - Last Modified: 2014-09-02
-- Version: v4.0.0.2
+- Version: v5.0.0.0
 - Company: mbedded.ninja
 - Project: MToolkit
 - Language: C++
@@ -31,6 +31,8 @@ Description
 
 A collection of microcontroller-friendly code modules to help with your embedded design!
 
+Click on any of the modules below to go to their individual repo, which contains more information, help, and examples.
+
 Core Modules
 ----------------
 
@@ -42,6 +44,11 @@ Communication Modules
 ---------------------
 
 - `ClideCpp <https://github.com/mbedded-ninja/ClideCpp>`_
+
+Signal Processing Modules
+-------------------------
+
+- `FixedPointCpp <https://github.com/mbedded-ninja/FixedPointCpp>`_
 
 Installation
 ============
@@ -72,6 +79,7 @@ Changelog
 ========= ========== ===================================================================================================
 Version    Date       Comment
 ========= ========== ===================================================================================================
+v5.0.0.0  2014-09-02 Added FixedPointCpp module to toolkit.
 v4.0.0.2  2014-09-02 Fixed hyperlinks in README.
 v4.0.0.1  2014-09-02 Turned module names in README into hyperlinks to actual repos, closes #5.
 v4.0.0.0  2014-09-02 Added OsalCpp module to toolkit, closes #4.

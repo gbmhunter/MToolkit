@@ -10,3 +10,6 @@
 [submodule "OsalCpp"]
 	path = OsalCpp
 	url = https://github.com/mbedded-ninja/OsalCpp
+[submodule "FixedPointCpp"]
+	path = FixedPointCpp
+	url = https://github.com/mbedded-ninja/FixedPointCpp
