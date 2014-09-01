@@ -4,3 +4,6 @@
 [submodule "MStringCpp"]
 	path = MStringCpp
 	url = https://github.com/mbedded-ninja/MStringCpp
+[submodule "MAssertCpp"]
+	path = MAssertCpp
+	url = https://github.com/mbedded-ninja/MAssertCpp
