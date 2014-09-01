@@ -12,7 +12,7 @@ A collection of microcontroller-friendly code modules to help with your embedded
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.mbedded.ninja)
 - Created: 2014-08-30
 - Last Modified: 2014-09-02
-- Version: v4.0.0.1
+- Version: v4.0.0.2
 - Company: mbedded.ninja
 - Project: MToolkit
 - Language: C++
@@ -34,14 +34,14 @@ A collection of microcontroller-friendly code modules to help with your embedded
 Core Modules
 ----------------
 
-- [MAssertCpp] (https://github.com/mbedded-ninja/MAssertCpp)
-- [MStringCpp] (https://github.com/mbedded-ninja/MStringCpp)
-- [OsalCpp] (https://github.com/mbedded-ninja/OsalCpp)
+- `MAssertCpp <https://github.com/mbedded-ninja/MAssertCpp>`_
+- `MStringCpp <https://github.com/mbedded-ninja/MStringCpp>`_
+- `OsalCpp <https://github.com/mbedded-ninja/OsalCpp>`_
 
 Communication Modules
 ---------------------
 
-- [ClideCpp] (https://github.com/mbedded-ninja/ClideCpp)
+- `ClideCpp <https://github.com/mbedded-ninja/ClideCpp>`_
 
 Installation
 ============
@@ -72,6 +72,7 @@ Changelog
 ========= ========== ===================================================================================================
 Version    Date       Comment
 ========= ========== ===================================================================================================
+v4.0.0.2  2014-09-02 Fixed hyperlinks in README.
 v4.0.0.1  2014-09-02 Turned module names in README into hyperlinks to actual repos, closes #5.
 v4.0.0.0  2014-09-02 Added OsalCpp module to toolkit, closes #4.
 v3.0.0.0  2014-09-01 Added MAssertCpp module to toolkit, closes #2, closes #3.
