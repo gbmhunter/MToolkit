@@ -12,7 +12,7 @@ A collection of microcontroller-friendly code modules to help with your embedded
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.mbedded.ninja)
 - Created: 2014-08-30
 - Last Modified: 2014-09-04
-- Version: v6.0.0.0
+- Version: v6.1.0.0
 - Company: mbedded.ninja
 - Project: MToolkit
 - Language: C++
@@ -79,6 +79,7 @@ Changelog
 ========= ========== ===================================================================================================
 Version    Date       Comment
 ========= ========== ===================================================================================================
+v6.1.0.0  2014-09-04 Updated all submodules to latest versions.
 v6.0.0.0  2014-09-04 Added the MUnitTestCpp module to the toolkit.
 v5.0.0.0  2014-09-02 Added FixedPointCpp module to toolkit.
 v4.0.0.2  2014-09-02 Fixed hyperlinks in README.
