@@ -29,7 +29,11 @@ A collection of microcontroller-friendly code modules to help with your embedded
 Description
 ===========
 
-A collection of microcontroller-friendly code modules to help with your embedded design!
+A collection of microcontroller-friendly code modules to help with your embedded design! 
+
+The code is designed so that you can add the .cpp files directly into your embedded IDE.
+
+But also, each module contains it own makefile, Eclipse project files and unit tests for building on a Unix machine (or Windows with cygwin) for testing/development purposes.
 
 Click on any of the modules below to go to their individual repo, which contains more information, help, and examples.
 
@@ -50,6 +54,11 @@ Signal Processing Modules
 
 - `FixedPointCpp <https://github.com/mbedded-ninja/FixedPointCpp>`_
 
+Debugging/Testing Modules
+-------------------------
+
+- `MUnitTestCpp <https://github.com/mbedded-ninja/MUnitTestCpp>`_
+
 Installation
 ============
 
@@ -57,11 +66,13 @@ Installation
 
 2. Use the modules as needed!
 
+3. If on a UNIX machine (e.g. Linux), type :code:`make` in one of MToolkit's modules subfolders to automatically build and run the unit tests for that particular module.
+
 
 Dependencies
 ============
 
-Each module has different dependencies...
+Each module has different dependencies, see their individual repo's for more information.
 
 Issues
 ======
@@ -79,6 +90,7 @@ Changelog
 ========= ========== ===================================================================================================
 Version    Date       Comment
 ========= ========== ===================================================================================================
+v6.1.0.1  2014-09-04 Added MUnitTestCpp info to README.
 v6.1.0.0  2014-09-04 Updated all submodules to latest versions.
 v6.0.0.0  2014-09-04 Added the MUnitTestCpp module to the toolkit.
 v5.0.0.0  2014-09-02 Added FixedPointCpp module to toolkit.
