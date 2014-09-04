@@ -13,3 +13,6 @@
 [submodule "FixedPointCpp"]
 	path = FixedPointCpp
 	url = https://github.com/mbedded-ninja/FixedPointCpp
+[submodule "MUnitTestCpp"]
+	path = MUnitTestCpp
+	url = https://github.com/mbedded-ninja/MUnitTestCpp
