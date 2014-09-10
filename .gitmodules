@@ -16,3 +16,21 @@
 [submodule "MUnitTestCpp"]
 	path = MUnitTestCpp
 	url = https://github.com/mbedded-ninja/MUnitTestCpp
+[submodule "MClide"]
+	path = MClide
+	url = https://github.com/mbedded-ninja/MClide
+[submodule "MFixedPoint"]
+	path = MFixedPoint
+	url = https://github.com/mbedded-ninja/MFixedPoint
+[submodule "MAssert"]
+	path = MAssert
+	url = https://github.com/mbedded-ninja/MAssert
+[submodule "MString"]
+	path = MString
+	url = https://github.com/mbedded-ninja/MString
+[submodule "MUnitTest"]
+	path = MUnitTest
+	url = https://github.com/mbedded-ninja/MUnitTest
+[submodule "MOsal"]
+	path = MOsal
+	url = https://github.com/mbedded-ninja/MOsal

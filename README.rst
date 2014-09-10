@@ -11,8 +11,8 @@ A collection of microcontroller-friendly code modules to help with your embedded
 
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.mbedded.ninja)
 - Created: 2014-08-30
-- Last Modified: 2014-09-04
-- Version: v6.1.0.0
+- Last Modified: 2014-09-10
+- Version: v6.2.0.0
 - Company: mbedded.ninja
 - Project: MToolkit
 - Language: C++
@@ -40,24 +40,24 @@ Click on any of the modules below to go to their individual repo, which contains
 Core Modules
 ----------------
 
-- `MAssertCpp <https://github.com/mbedded-ninja/MAssertCpp>`_
-- `MStringCpp <https://github.com/mbedded-ninja/MStringCpp>`_
-- `OsalCpp <https://github.com/mbedded-ninja/OsalCpp>`_
+- `MAssert <https://github.com/mbedded-ninja/MAssert>`_
+- `MString <https://github.com/mbedded-ninja/MString>`_
+- `MOsal <https://github.com/mbedded-ninja/MOsal>`_
 
 Communication Modules
 ---------------------
 
-- `ClideCpp <https://github.com/mbedded-ninja/ClideCpp>`_
+- `MClide <https://github.com/mbedded-ninja/MClide>`_
 
 Signal Processing Modules
 -------------------------
 
-- `FixedPointCpp <https://github.com/mbedded-ninja/FixedPointCpp>`_
+- `MFixedPoint <https://github.com/mbedded-ninja/MFixedPoint>`_
 
 Debugging/Testing Modules
 -------------------------
 
-- `MUnitTestCpp <https://github.com/mbedded-ninja/MUnitTestCpp>`_
+- `MUnitTest <https://github.com/mbedded-ninja/MUnitTest>`_
 
 Installation
 ============
@@ -90,6 +90,7 @@ Changelog
 ========= ========== ===================================================================================================
 Version    Date       Comment
 ========= ========== ===================================================================================================
+v6.2.0.0  2014-09-10 Renamed all submodules to match their acutal repo names. Updated README accordingly.
 v6.1.0.1  2014-09-04 Added MUnitTestCpp info to README.
 v6.1.0.0  2014-09-04 Updated all submodules to latest versions.
 v6.0.0.0  2014-09-04 Added the MUnitTestCpp module to the toolkit.
