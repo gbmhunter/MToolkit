@@ -34,3 +34,6 @@
 [submodule "MOsal"]
 	path = MOsal
 	url = https://github.com/mbedded-ninja/MOsal
+[submodule "MHal"]
+	path = MHal
+	url = https://github.com/mbedded-ninja/MHal

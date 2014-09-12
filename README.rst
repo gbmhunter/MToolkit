@@ -11,8 +11,8 @@ A collection of microcontroller-friendly code modules to help with your embedded
 
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.mbedded.ninja)
 - Created: 2014-08-30
-- Last Modified: 2014-09-10
-- Version: v6.2.0.0
+- Last Modified: 2014-09-12
+- Version: v7.0.0.0
 - Company: mbedded.ninja
 - Project: MToolkit
 - Language: C++
@@ -37,12 +37,18 @@ But also, each module contains it own makefile, Eclipse project files and unit t
 
 Click on any of the modules below to go to their individual repo, which contains more information, help, and examples.
 
-Core Modules
-----------------
+
+Core Utilities
+--------------
 
 - `MAssert <https://github.com/mbedded-ninja/MAssert>`_
 - `MString <https://github.com/mbedded-ninja/MString>`_
+
+Abstraction Layers
+------------------
+
 - `MOsal <https://github.com/mbedded-ninja/MOsal>`_
+- `MHal <https://github.com/mbedded-ninja/MHal>`_
 
 Communication Modules
 ---------------------
@@ -87,9 +93,10 @@ Nothing here yet...
 Changelog
 =========
 
-========= ========== ===================================================================================================
+========= ========== =====================================================================
 Version    Date       Comment
-========= ========== ===================================================================================================
+========= ========== =====================================================================
+v7.0.0.0  2014-09-12 Added MHal module to toolkit, and added it to the new README section 'Abstraction Layers', closes #11.
 v6.2.0.0  2014-09-10 Renamed all submodules to match their acutal repo names. Updated README accordingly.
 v6.1.0.1  2014-09-04 Added MUnitTestCpp info to README.
 v6.1.0.0  2014-09-04 Updated all submodules to latest versions.
@@ -102,4 +109,4 @@ v3.0.0.0  2014-09-01 Added MAssertCpp module to toolkit, closes #2, closes #3.
 v2.1.0.0  2014-09-01 Updated ClideCpp to latest version. Added info on MStringCpp to README, closes #1.
 v2.0.0.0  2014-08-30 Added MStringCpp module as a Git submodule, closes #1.
 v1.0.0.0  2014-08-30 Initial commit. ClideCpp module added as a Git submodule.
-========= ========== ===================================================================================================
+========= ========== =====================================================================
