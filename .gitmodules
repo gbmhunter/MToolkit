@@ -37,3 +37,6 @@
 [submodule "MHal"]
 	path = MHal
 	url = https://github.com/mbedded-ninja/MHal
+[submodule "MCallbacks"]
+	path = MCallbacks
+	url = https://github.com/mbedded-ninja/MCallbacks
