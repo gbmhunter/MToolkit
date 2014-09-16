@@ -11,8 +11,8 @@ A collection of microcontroller-friendly code modules to help with your embedded
 
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.mbedded.ninja)
 - Created: 2014-08-30
-- Last Modified: 2014-09-14
-- Version: v8.0.0.0
+- Last Modified: 2014-09-16
+- Version: v9.0.0.0
 - Company: mbedded.ninja
 - Project: MToolkit
 - Language: C++
@@ -58,6 +58,7 @@ Communication Modules
 Signal Processing Modules
 -------------------------
 
+- `MFilters <https://github.com/mbedded-ninja/MFilters>`_
 - `MFixedPoint <https://github.com/mbedded-ninja/MFixedPoint>`_
 
 Debugging/Testing Modules
@@ -96,6 +97,7 @@ Changelog
 ========= ========== =====================================================================
 Version    Date       Comment
 ========= ========== =====================================================================
+v9.0.0.0  2014-09-16 Added MFilters module to toolkit, closes #14.
 v8.0.0.0  2014-09-14 Added MCallbacks module to toolkit, closes #12.
 v7.2.0.0  2014-09-14 Added Makefile which builds and tests all modules in MToolkit, closes #7. Added .travis.yml file to enable TravisCI integration, closes #13.
 v7.1.0.0  2014-09-14 Updated all git submodules.

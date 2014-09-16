@@ -40,3 +40,6 @@
 [submodule "MCallbacks"]
 	path = MCallbacks
 	url = https://github.com/mbedded-ninja/MCallbacks
+[submodule "MFilters"]
+	path = MFilters
+	url = https://github.com/mbedded-ninja/MFilters
