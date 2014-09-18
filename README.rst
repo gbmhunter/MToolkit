@@ -11,8 +11,8 @@ A collection of microcontroller-friendly code modules to help with your embedded
 
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.mbedded.ninja)
 - Created: 2014-08-30
-- Last Modified: 2014-09-16
-- Version: v9.1.0.0
+- Last Modified: 2014-09-18
+- Version: v10.0.0.0
 - Company: mbedded.ninja
 - Project: MToolkit
 - Language: C++
@@ -43,6 +43,7 @@ Core Utilities
 
 - `MAssert <https://github.com/mbedded-ninja/MAssert>`_
 - `MString <https://github.com/mbedded-ninja/MString>`_
+- `MVector <https://github.com/mbedded-ninja/MVector>`_
 
 Abstraction Layers
 ------------------
@@ -97,6 +98,7 @@ Changelog
 ========= ========== =====================================================================
 Version    Date       Comment
 ========= ========== =====================================================================
+v10.0.0.0 2014-09-18 Added MVector module to toolkit, closes #10.
 v9.1.0.0  2014-09-16 Updated all git submodules.
 v9.0.0.0  2014-09-16 Added MFilters module to toolkit, closes #14.
 v8.0.0.0  2014-09-14 Added MCallbacks module to toolkit, closes #12.

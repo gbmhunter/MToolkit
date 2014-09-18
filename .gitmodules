@@ -43,3 +43,6 @@
 [submodule "MFilters"]
 	path = MFilters
 	url = https://github.com/mbedded-ninja/MFilters
+[submodule "MVector"]
+	path = MVector
+	url = https://github.com/mbedded-ninja/MVector
