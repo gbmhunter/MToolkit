@@ -46,3 +46,6 @@
 [submodule "MVector"]
 	path = MVector
 	url = https://github.com/mbedded-ninja/MVector
+[submodule "MUtils"]
+	path = MUtils
+	url = https://github.com/mbedded-ninja/MUtils
