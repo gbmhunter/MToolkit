@@ -12,7 +12,7 @@ A collection of microcontroller-friendly code modules to help with your embedded
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.mbedded.ninja)
 - Created: 2014-08-30
 - Last Modified: 2014-09-23
-- Version: v11.1.0.1
+- Version: v11.1.0.2
 - Company: mbedded.ninja
 - Project: MToolkit
 - Language: C++
@@ -42,9 +42,9 @@ Core Utilities
 --------------
 
 - `MAssert <https://github.com/mbedded-ninja/MAssert>`_
-- 'MCallbacks <https://github.com/mbedded-ninja/MCallbacks>`_
+- `MCallbacks <https://github.com/mbedded-ninja/MCallbacks>`_
 - `MString <https://github.com/mbedded-ninja/MString>`_
-- 'MUtils <https://github.com/mbedded-ninja/MUtils>`_
+- `MUtils <https://github.com/mbedded-ninja/MUtils>`_
 - `MVector <https://github.com/mbedded-ninja/MVector>`_
 
 Abstraction Layers
@@ -100,6 +100,7 @@ Changelog
 ========= ========== =====================================================================
 Version    Date       Comment
 ========= ========== =====================================================================
+v11.1.0.2 2014-09-23 Fixed URL links in README for 'MUtils' and 'MCallbacks' modules, closes #18.
 v11.1.0.1 2014-09-23 Added MCallbacks and MUtils module info to README.
 v11.1.0.0 2014-09-23 Updated all git submodules.
 v11.0.0.0 2014-09-19 Added MUtils module to toolkit, closes #16. Updated all modules.
