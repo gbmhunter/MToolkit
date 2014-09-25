@@ -49,3 +49,6 @@
 [submodule "MUtils"]
 	path = MUtils
 	url = https://github.com/mbedded-ninja/MUtils
+[submodule "MRingBuff"]
+	path = MRingBuff
+	url = https://github.com/mbedded-ninja/MRingBuff
