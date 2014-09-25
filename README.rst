@@ -12,7 +12,7 @@ A collection of microcontroller-friendly code modules to help with your embedded
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.mbedded.ninja)
 - Created: 2014-08-30
 - Last Modified: 2014-09-26
-- Version: v12.0.0.0
+- Version: v12.1.0.0
 - Company: mbedded.ninja
 - Project: MToolkit
 - Language: C++
@@ -100,6 +100,7 @@ Changelog
 ========= ========== =====================================================================
 Version    Date       Comment
 ========= ========== =====================================================================
+v12.1.0.0 2014-09-26 Updated MRingBuff module.
 v12.0.0.0 2014-09-26 Added 'MRingBuff' module to toolkit, closes #19. Updated all modules.
 v11.1.0.2 2014-09-23 Fixed URL links in README for 'MUtils' and 'MCallbacks' modules, closes #18.
 v11.1.0.1 2014-09-23 Added MCallbacks and MUtils module info to README.
