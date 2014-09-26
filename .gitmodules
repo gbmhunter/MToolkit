@@ -52,3 +52,6 @@
 [submodule "MRingBuff"]
 	path = MRingBuff
 	url = https://github.com/mbedded-ninja/MRingBuff
+[submodule "MChrono"]
+	path = MChrono
+	url = https://github.com/mbedded-ninja/MChrono

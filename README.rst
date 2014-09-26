@@ -9,10 +9,10 @@ A collection of microcontroller-friendly code modules to help with your embedded
 .. image:: https://api.travis-ci.org/mbedded-ninja/MToolkit.png?branch=master   
 	:target: https://travis-ci.org/mbedded-ninja/MToolkit
 
-- Author: gbmhunter <gbmhunter@gmail.com> (http://www.mbedded.ninja)
+- Author: gbmhunter <gbmhunter@gmail.com> (www.mbedded.ninja)
 - Created: 2014-08-30
 - Last Modified: 2014-09-26
-- Version: v12.1.0.0
+- Version: v13.0.0.0
 - Company: mbedded.ninja
 - Project: MToolkit
 - Language: C++
@@ -42,7 +42,6 @@ Core Utilities
 --------------
 
 - `MAssert <https://github.com/mbedded-ninja/MAssert>`_
-- `MCallbacks <https://github.com/mbedded-ninja/MCallbacks>`_
 - `MString <https://github.com/mbedded-ninja/MString>`_
 - `MUtils <https://github.com/mbedded-ninja/MUtils>`_
 - `MVector <https://github.com/mbedded-ninja/MVector>`_
@@ -57,6 +56,13 @@ Communication Modules
 ---------------------
 
 - `MClide <https://github.com/mbedded-ninja/MClide>`_
+
+General Purpose Modules
+-----------------------
+
+- `MCallbacks <https://github.com/mbedded-ninja/MCallbacks>`_
+- `MChrono <https://github.com/mbedded-ninja/MChrono>`_
+- `MRingBuff <https://github.com/mbedded-ninja/MRingBuff>`_
 
 Signal Processing Modules
 -------------------------
@@ -100,6 +106,7 @@ Changelog
 ========= ========== =====================================================================
 Version    Date       Comment
 ========= ========== =====================================================================
+v13.0.0.0 2014-09-26 Added 'MChrono' module toolkit, closes #17. Updated all modules. Added 'General Purpose Modules' section to README.
 v12.1.0.0 2014-09-26 Updated MRingBuff module.
 v12.0.0.0 2014-09-26 Added 'MRingBuff' module to toolkit, closes #19. Updated all modules.
 v11.1.0.2 2014-09-23 Fixed URL links in README for 'MUtils' and 'MCallbacks' modules, closes #18.
