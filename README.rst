@@ -11,8 +11,8 @@ A collection of microcontroller-friendly code modules to help with your embedded
 
 - Author: gbmhunter <gbmhunter@gmail.com> (www.mbedded.ninja)
 - Created: 2014-08-30
-- Last Modified: 2014-09-26
-- Version: v13.0.0.0
+- Last Modified: 2014-10-01
+- Version: v13.0.1.0
 - Company: mbedded.ninja
 - Project: MToolkit
 - Language: C++
@@ -106,6 +106,7 @@ Changelog
 ========= ========== =====================================================================
 Version    Date       Comment
 ========= ========== =====================================================================
+v13.0.1.0 2014-10-01 Fixed bug where MToolkit build/test makefile still returns 0 (success), even if one of the submodule makefiles it calls returns 1 (fail).
 v13.0.0.0 2014-09-26 Added 'MChrono' module toolkit, closes #17. Updated all modules. Added 'General Purpose Modules' section to README.
 v12.1.0.0 2014-09-26 Updated MRingBuff module.
 v12.0.0.0 2014-09-26 Added 'MRingBuff' module to toolkit, closes #19. Updated all modules.
