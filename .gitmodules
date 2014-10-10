@@ -55,3 +55,6 @@
 [submodule "MChrono"]
 	path = MChrono
 	url = https://github.com/mbedded-ninja/MChrono
+[submodule "MLinInterp"]
+	path = MLinInterp
+	url = https://github.com/mbedded-ninja/MLinInterp
