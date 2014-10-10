@@ -12,7 +12,7 @@ A collection of microcontroller-friendly code modules to help with your embedded
 - Author: gbmhunter <gbmhunter@gmail.com> (www.mbedded.ninja)
 - Created: 2014-08-30
 - Last Modified: 2014-10-10
-- Version: v14.0.0.0
+- Version: v15.0.0.0
 - Company: mbedded.ninja
 - Project: MToolkit
 - Language: C++
@@ -70,6 +70,7 @@ Signal Processing Modules
 - `MFilters <https://github.com/mbedded-ninja/MFilters>`_
 - `MFixedPoint <https://github.com/mbedded-ninja/MFixedPoint>`_
 - `MLinInterp <https://github.com/mbedded-ninja/MLinInterp>`_
+- `MPid <https://github.com/mbedded-ninja/MPid>`_
 
 Debugging/Testing Modules
 -------------------------
@@ -107,6 +108,7 @@ Changelog
 ========= ========== =====================================================================
 Version    Date       Comment
 ========= ========== =====================================================================
+v15.0.0.0 2014-10-10 Added MPid module to toolkit, closes #22.
 v14.0.0.0 2014-10-10 Added MLinInterp module to toolkit, closes #21. Updated MClide module.
 v13.3.0.0 2014-10-09 Updated MAssert, MClide, MString, and MVector modules.
 v13.2.0.0 2014-10-08 Updated MChrono and MOsal modules.

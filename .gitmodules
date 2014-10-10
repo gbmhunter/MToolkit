@@ -58,3 +58,6 @@
 [submodule "MLinInterp"]
 	path = MLinInterp
 	url = https://github.com/mbedded-ninja/MLinInterp
+[submodule "MPid"]
+	path = MPid
+	url = https://github.com/mbedded-ninja/MPid
