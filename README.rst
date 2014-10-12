@@ -11,8 +11,8 @@ A collection of microcontroller-friendly code modules to help with your embedded
 
 - Author: gbmhunter <gbmhunter@gmail.com> (www.mbedded.ninja)
 - Created: 2014-08-30
-- Last Modified: 2014-10-10
-- Version: v15.0.0.0
+- Last Modified: 2014-10-12
+- Version: v16.0.0.0
 - Company: mbedded.ninja
 - Project: MToolkit
 - Language: C++
@@ -42,6 +42,7 @@ Core Utilities
 --------------
 
 - `MAssert <https://github.com/mbedded-ninja/MAssert>`_
+- `MIOStream <https://github.com/mbedded-ninja/MIOStream>`_
 - `MString <https://github.com/mbedded-ninja/MString>`_
 - `MUtils <https://github.com/mbedded-ninja/MUtils>`_
 - `MVector <https://github.com/mbedded-ninja/MVector>`_
@@ -108,6 +109,7 @@ Changelog
 ========= ========== =====================================================================
 Version    Date       Comment
 ========= ========== =====================================================================
+v16.0.0.0 2014-10-12 Added MIOStream module to toolkit, closes #24. Updated MLinInterp and MPid modules.
 v15.0.0.0 2014-10-10 Added MPid module to toolkit, closes #22.
 v14.0.0.0 2014-10-10 Added MLinInterp module to toolkit, closes #21. Updated MClide module.
 v13.3.0.0 2014-10-09 Updated MAssert, MClide, MString, and MVector modules.

@@ -61,3 +61,6 @@
 [submodule "MPid"]
 	path = MPid
 	url = https://github.com/mbedded-ninja/MPid
+[submodule "MIOStream"]
+	path = MIOStream
+	url = https://github.com/mbedded-ninja/MIOStream
