@@ -64,3 +64,6 @@
 [submodule "MIOStream"]
 	path = MIOStream
 	url = https://github.com/mbedded-ninja/MIOStream
+[submodule "MLedController"]
+	path = MLedController
+	url = https://github.com/mbedded-ninja/MLedController
