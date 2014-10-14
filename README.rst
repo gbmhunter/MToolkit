@@ -12,7 +12,7 @@ A collection of microcontroller-friendly code modules to help with your embedded
 - Author: gbmhunter <gbmhunter@gmail.com> (www.mbedded.ninja)
 - Created: 2014-08-30
 - Last Modified: 2014-10-14
-- Version: v17.0.0.0
+- Version: v17.0.0.1
 - Company: mbedded.ninja
 - Project: MToolkit
 - Language: C++
@@ -37,16 +37,6 @@ But also, each module contains it own makefile, Eclipse project files and unit t
 
 Click on any of the modules below to go to their individual repo, which contains more information, help, and examples.
 
-
-Core Utilities
---------------
-
-- `MAssert <https://github.com/mbedded-ninja/MAssert>`_
-- `MIOStream <https://github.com/mbedded-ninja/MIOStream>`_
-- `MString <https://github.com/mbedded-ninja/MString>`_
-- `MUtils <https://github.com/mbedded-ninja/MUtils>`_
-- `MVector <https://github.com/mbedded-ninja/MVector>`_
-
 Abstraction Layers
 ------------------
 
@@ -57,6 +47,20 @@ Communication Modules
 ---------------------
 
 - `MClide <https://github.com/mbedded-ninja/MClide>`_
+
+Debugging/Testing Modules
+-------------------------
+
+- `MUnitTest <https://github.com/mbedded-ninja/MUnitTest>`_
+
+Core Utilities
+--------------
+
+- `MAssert <https://github.com/mbedded-ninja/MAssert>`_
+- `MIOStream <https://github.com/mbedded-ninja/MIOStream>`_
+- `MString <https://github.com/mbedded-ninja/MString>`_
+- `MUtils <https://github.com/mbedded-ninja/MUtils>`_
+- `MVector <https://github.com/mbedded-ninja/MVector>`_
 
 General Purpose Modules
 -----------------------
@@ -73,10 +77,10 @@ Signal Processing Modules
 - `MLinInterp <https://github.com/mbedded-ninja/MLinInterp>`_
 - `MPid <https://github.com/mbedded-ninja/MPid>`_
 
-Debugging/Testing Modules
+UI Modules
 -------------------------
 
-- `MUnitTest <https://github.com/mbedded-ninja/MUnitTest>`_
+- `MLedController <https://github.com/mbedded-ninja/MLedController>`_
 
 Installation
 ============
@@ -109,6 +113,7 @@ Changelog
 ========= ========== =====================================================================
 Version    Date       Comment
 ========= ========== =====================================================================
+v17.0.0.1 2014-10-14 Added MLedController to list of modules in README.
 v17.0.0.0 2014-10-14 Added MLedController module to toolkit, closes #25. Updated MHal and MOsal modules.
 v16.0.1.0 2014-10-13 Updated the MOsal module.
 v16.0.0.0 2014-10-12 Added MIOStream module to toolkit, closes #24. Updated MLinInterp and MPid modules.
