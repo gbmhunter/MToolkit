@@ -11,8 +11,8 @@ A collection of microcontroller-friendly code modules to help with your embedded
 
 - Author: gbmhunter <gbmhunter@gmail.com> (www.mbedded.ninja)
 - Created: 2014-08-30
-- Last Modified: 2014-10-14
-- Version: v17.0.0.1
+- Last Modified: 2014-10-15
+- Version: v1.16.0.2
 - Company: mbedded.ninja
 - Project: MToolkit
 - Language: C++
@@ -113,40 +113,41 @@ Changelog
 ========= ========== =====================================================================
 Version    Date       Comment
 ========= ========== =====================================================================
-v17.0.0.1 2014-10-14 Added MLedController to list of modules in README.
-v17.0.0.0 2014-10-14 Added MLedController module to toolkit, closes #25. Updated MHal and MOsal modules.
-v16.0.1.0 2014-10-13 Updated the MOsal module.
-v16.0.0.0 2014-10-12 Added MIOStream module to toolkit, closes #24. Updated MLinInterp and MPid modules.
-v15.0.0.0 2014-10-10 Added MPid module to toolkit, closes #22.
-v14.0.0.0 2014-10-10 Added MLinInterp module to toolkit, closes #21. Updated MClide module.
-v13.3.0.0 2014-10-09 Updated MAssert, MClide, MString, and MVector modules.
-v13.2.0.0 2014-10-08 Updated MChrono and MOsal modules.
-v13.1.0.0 2014-10-07 Updated MChrono, MString and MClide modules.
-v13.0.1.0 2014-10-01 Fixed bug where MToolkit build/test makefile still returns 0 (success), even if one of the submodule makefiles it calls returns 1 (fail).
-v13.0.0.0 2014-09-26 Added 'MChrono' module toolkit, closes #17. Updated all modules. Added 'General Purpose Modules' section to README.
-v12.1.0.0 2014-09-26 Updated MRingBuff module.
-v12.0.0.0 2014-09-26 Added 'MRingBuff' module to toolkit, closes #19. Updated all modules.
-v11.1.0.2 2014-09-23 Fixed URL links in README for 'MUtils' and 'MCallbacks' modules, closes #18.
-v11.1.0.1 2014-09-23 Added MCallbacks and MUtils module info to README.
-v11.1.0.0 2014-09-23 Updated all git submodules.
-v11.0.0.0 2014-09-19 Added MUtils module to toolkit, closes #16. Updated all modules.
-v10.0.0.0 2014-09-18 Added MVector module to toolkit, closes #10.
-v9.1.0.0  2014-09-16 Updated all git submodules.
-v9.0.0.0  2014-09-16 Added MFilters module to toolkit, closes #14.
-v8.0.0.0  2014-09-14 Added MCallbacks module to toolkit, closes #12.
-v7.2.0.0  2014-09-14 Added Makefile which builds and tests all modules in MToolkit, closes #7. Added .travis.yml file to enable TravisCI integration, closes #13.
-v7.1.0.0  2014-09-14 Updated all git submodules.
-v7.0.0.0  2014-09-12 Added MHal module to toolkit, and added it to the new README section 'Abstraction Layers', closes #11.
-v6.2.0.0  2014-09-10 Renamed all submodules to match their acutal repo names. Updated README accordingly.
-v6.1.0.1  2014-09-04 Added MUnitTestCpp info to README.
-v6.1.0.0  2014-09-04 Updated all submodules to latest versions.
-v6.0.0.0  2014-09-04 Added the MUnitTestCpp module to the toolkit.
-v5.0.0.0  2014-09-02 Added FixedPointCpp module to toolkit.
-v4.0.0.2  2014-09-02 Fixed hyperlinks in README.
-v4.0.0.1  2014-09-02 Turned module names in README into hyperlinks to actual repos, closes #5.
-v4.0.0.0  2014-09-02 Added OsalCpp module to toolkit, closes #4.
-v3.0.0.0  2014-09-01 Added MAssertCpp module to toolkit, closes #2, closes #3.
-v2.1.0.0  2014-09-01 Updated ClideCpp to latest version. Added info on MStringCpp to README, closes #1.
-v2.0.0.0  2014-08-30 Added MStringCpp module as a Git submodule, closes #1.
+v1.16.0.2 2014-10-15 Modified all existing version number tags so that the minor number is incremented when a new module is added, not the major number, closes #26. 
+v1.16.0.1 2014-10-14 Added MLedController to list of modules in README.
+v1.16.0.0 2014-10-14 Added MLedController module to toolkit, closes #25. Updated MHal and MOsal modules.
+v1.15.1.0 2014-10-13 Updated the MOsal module.
+v1.15.0.0 2014-10-12 Added MIOStream module to toolkit, closes #24. Updated MLinInterp and MPid modules.
+v1.14.0.0 2014-10-10 Added MPid module to toolkit, closes #22.
+v1.13.0.0 2014-10-10 Added MLinInterp module to toolkit, closes #21. Updated MClide module.
+v1.12.2.0 2014-10-09 Updated MAssert, MClide, MString, and MVector modules.
+v1.12.1.0 2014-10-08 Updated MChrono and MOsal modules.
+v1.12.0.2 2014-10-07 Updated MChrono, MString and MClide modules.
+v1.12.0.1 2014-10-01 Fixed bug where MToolkit build/test makefile still returns 0 (success), even if one of the submodule makefiles it calls returns 1 (fail).
+v1.12.0.0 2014-09-26 Added 'MChrono' module toolkit, closes #17. Updated all modules. Added 'General Purpose Modules' section to README.
+v1.11.1.0 2014-09-26 Updated MRingBuff module.
+v1.11.0.0 2014-09-26 Added 'MRingBuff' module to toolkit, closes #19. Updated all modules.
+v1.10.1.2 2014-09-23 Fixed URL links in README for 'MUtils' and 'MCallbacks' modules, closes #18.
+v1.10.1.1 2014-09-23 Added MCallbacks and MUtils module info to README.
+v1.10.1.0 2014-09-23 Updated all git submodules.
+v1.10.0.0 2014-09-19 Added MUtils module to toolkit, closes #16. Updated all modules.
+v1.9.0.0 2014-09-18 Added MVector module to toolkit, closes #10.
+v1.8.1.0  2014-09-16 Updated all git submodules.
+v1.8.0.0  2014-09-16 Added MFilters module to toolkit, closes #14.
+v1.7.0.0  2014-09-14 Added MCallbacks module to toolkit, closes #12.
+v1.6.2.0  2014-09-14 Added Makefile which builds and tests all modules in MToolkit, closes #7. Added .travis.yml file to enable TravisCI integration, closes #13.
+v1.6.1.0  2014-09-14 Updated all git submodules.
+v1.6.0.0  2014-09-12 Added MHal module to toolkit, and added it to the new README section 'Abstraction Layers', closes #11.
+v1.5.2.0  2014-09-10 Renamed all submodules to match their acutal repo names. Updated README accordingly.
+v1.5.1.1  2014-09-04 Added MUnitTestCpp info to README.
+v1.5.1.0  2014-09-04 Updated all submodules to latest versions.
+v1.5.0.0  2014-09-04 Added the MUnitTestCpp module to the toolkit.
+v1.4.0.0  2014-09-02 Added FixedPointCpp module to toolkit.
+v1.3.0.2  2014-09-02 Fixed hyperlinks in README.
+v1.3.0.1  2014-09-02 Turned module names in README into hyperlinks to actual repos, closes #5.
+v1.3.0.0  2014-09-02 Added OsalCpp module to toolkit, closes #4.
+v1.2.0.0  2014-09-01 Added MAssertCpp module to toolkit, closes #2, closes #3.
+v1.1.1.0  2014-09-01 Updated ClideCpp to latest version. Added info on MStringCpp to README, closes #1.
+v1.1.0.0  2014-08-30 Added MStringCpp module as a Git submodule, closes #1.
 v1.0.0.0  2014-08-30 Initial commit. ClideCpp module added as a Git submodule.
 ========= ========== =====================================================================
