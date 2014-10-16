@@ -48,6 +48,12 @@ Communication Modules
 
 - `MClide <https://github.com/mbedded-ninja/MClide>`_
 
+Container Modules
+-----------------
+
+- `MList <https://github.com/mbedded-ninja/MList>`_
+- `MVector <https://github.com/mbedded-ninja/MVector>`_
+
 Debugging/Testing Modules
 -------------------------
 
@@ -60,7 +66,6 @@ Core Utilities
 - `MIOStream <https://github.com/mbedded-ninja/MIOStream>`_
 - `MString <https://github.com/mbedded-ninja/MString>`_
 - `MUtils <https://github.com/mbedded-ninja/MUtils>`_
-- `MVector <https://github.com/mbedded-ninja/MVector>`_
 
 General Purpose Modules
 -----------------------
@@ -113,6 +118,7 @@ Changelog
 ========= ========== =====================================================================
 Version    Date       Comment
 ========= ========== =====================================================================
+v1.17.0.0 2014-10-16 Added MList module to toolbox, closes #27. Added new 'Container Modules' section to MToolkit README, put MVector and MList into this, closes #28.
 v1.16.0.2 2014-10-15 Modified all existing version number tags so that the minor number is incremented when a new module is added, not the major number, closes #26. 
 v1.16.0.1 2014-10-14 Added MLedController to list of modules in README.
 v1.16.0.0 2014-10-14 Added MLedController module to toolkit, closes #25. Updated MHal and MOsal modules.
