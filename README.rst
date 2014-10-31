@@ -1,6 +1,6 @@
-==============================================================
+========
 MToolkit
-==============================================================
+========
 
 ----------------------------------------------------------------------------------------
 A collection of microcontroller-friendly code modules to help with your embedded design!
@@ -11,8 +11,8 @@ A collection of microcontroller-friendly code modules to help with your embedded
 
 - Author: gbmhunter <gbmhunter@gmail.com> (www.mbedded.ninja)
 - Created: 2014-08-30
-- Last Modified: 2014-10-15
-- Version: v1.16.0.2
+- Last Modified: 2014-11-01
+- Version: v1.17.1.0
 - Company: mbedded.ninja
 - Project: MToolkit
 - Language: C++
@@ -90,17 +90,23 @@ UI Modules
 Installation
 ============
 
-1. Clone the git repo onto your local storage.
+1. Clone the git repo onto your local storage (:code:`git clone https://github.com/mbedded-ninja/MToolkit MToolkit`)
 
-2. Use the modules as needed!
+2. At this point all the submodule folders will still be empty, update them all at once with :code:`git submodule update --init`.
 
-3. If on a UNIX machine (e.g. Linux), type :code:`make` in one of MToolkit's modules subfolders to automatically build and run the unit tests for that particular module.
+3. Use the modules as needed!
 
+4. If on a UNIX machine (e.g. Linux), type :code:`make` in the MToolkit root directory to automatically build and run the unit tests for all the submodules.
+
+Updating Modules
+================
+
+If a particular module is updated but the changes havn't been reflected in MToolkit yet, you can run the command :code:`git submodule foreach git pull origin master`.
 
 Dependencies
 ============
 
-Each module has different dependencies, see their individual repo's for more information.
+Each module has different dependencies, see the respective repo's READEM for more information.
 
 Issues
 ======
@@ -118,6 +124,7 @@ Changelog
 ========= ========== =====================================================================
 Version    Date       Comment
 ========= ========== =====================================================================
+v1.17.1.0 2014-11-01 Updated all submodules. Add info to README about how to pull all submodules if MToolkit repo is cloned, closes #29. Add info to README about how make in root folder will build/test all modules, closes #15.
 v1.17.0.0 2014-10-16 Added MList module to toolbox, closes #27. Added new 'Container Modules' section to MToolkit README, put MVector and MList into this, closes #28.
 v1.16.0.2 2014-10-15 Modified all existing version number tags so that the minor number is incremented when a new module is added, not the major number, closes #26. 
 v1.16.0.1 2014-10-14 Added MLedController to list of modules in README.
